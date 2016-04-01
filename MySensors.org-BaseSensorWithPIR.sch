@@ -11475,8 +11475,8 @@ Mouser part: 534-1019</description>
 <instance part="SUPPLY3" gate="1" x="40.64" y="124.46" smashed="yes">
 <attribute name="VALUE" x="36.83" y="123.19" size="1.778" layer="96"/>
 </instance>
-<instance part="SUPPLY4" gate="1" x="160.02" y="111.76" smashed="yes" rot="R180">
-<attribute name="VALUE" x="161.29" y="110.49" size="1.778" layer="96" rot="R180"/>
+<instance part="SUPPLY4" gate="1" x="162.56" y="114.3" smashed="yes">
+<attribute name="VALUE" x="161.29" y="115.57" size="1.778" layer="96"/>
 </instance>
 <instance part="SUPPLY5" gate="1" x="185.42" y="172.72" smashed="yes">
 <attribute name="VALUE" x="184.15" y="173.99" size="1.778" layer="96"/>
@@ -11830,8 +11830,8 @@ Mouser part: 534-1019</description>
 <segment>
 <pinref part="SUPPLY4" gate="1" pin="V+"/>
 <pinref part="J1" gate="G$1" pin="4"/>
-<wire x1="160.02" y1="114.3" x2="160.02" y2="116.84" width="0.1524" layer="91"/>
-<wire x1="160.02" y1="116.84" x2="172.72" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="162.56" y1="111.76" x2="172.72" y2="111.76" width="0.1524" layer="91"/>
+<wire x1="172.72" y1="111.76" x2="172.72" y2="116.84" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="J6" gate="G$1" pin="2"/>
@@ -12055,7 +12055,7 @@ Mouser part: 534-1019</description>
 <pinref part="M1" gate="G$1" pin="CSN"/>
 <wire x1="215.9" y1="93.98" x2="215.9" y2="86.36" width="0.1524" layer="91"/>
 <wire x1="215.9" y1="86.36" x2="203.2" y2="86.36" width="0.1524" layer="91"/>
-<label x="213.36" y="93.98" size="1.778" layer="95" rot="R180" xref="yes"/>
+<label x="215.9" y="93.98" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="D9" class="0">

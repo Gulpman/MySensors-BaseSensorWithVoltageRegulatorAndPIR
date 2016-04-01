@@ -11,8 +11,14 @@ This is my first own eagle project.
 <li>ATSHA204A (optional)</li>
 <li>PIR Sensor 3.3V (optional)</li>
 <li>MAX1724+ (optional - if you do not want to use it shorten jumper SJ2)</li>
-<li>I2C header with Pullups</li>
+<li>I2C header with (optional) Pullups</li>
+	<ul>
+        <li>PIN layout allows to directly connect standard breakout boards for BMPx80 or Si7021</li>
+    </ul>
 <li>FTDI header</li>
+	<ul>
+        <li>As I used the Sparkfun headers the FTDI header can just be pulled in and does not have to be soldered (hopefully, never tried it out :) )</li>
+    </ul>
 <li>ISP header</li>
 <li>CR123A battery holder</li>
 <li>The following pins can be used via pin headers</li>
@@ -26,7 +32,7 @@ Jumper SJ1 is useless at the moment - the idea behind it is that, dependent on t
 
 The PCB is meant to fit into an ABS82 case. The ABS-82 is for example available at TME -> <a href="http://www.tme.eu/de/details/abs-82/universal-gehaeuse/">ABS-82 @ TME</a>. 
 
-Big kudos go to Omega-5 from forum.fhem.org who had an eye on my first steps in the Eagle world and who is responsible at least for a few of the capacitors and their position very close to the 328P :)
+Big kudos go to Omega-5 from forum.fhem.de who had an eye on my first steps in the Eagle world and who is responsible at least for a few of the capacitors and their position very close to the 328P :)
 I think I can admit that this sensor would have had no chance to function without him having a look on my files.
 
 After the sensor has proven that it is functioning the next version will have the following improvements:
